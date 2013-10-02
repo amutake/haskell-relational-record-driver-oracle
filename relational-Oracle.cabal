@@ -1,4 +1,4 @@
-name:                relational-OracleDB
+name:                relational-Oracle
 version:             0.1.0.0
 synopsis:            Oracle DB driver for haskell-relational-record
 description:         This package contains a driver of Oracle DB for haskell-relational-record.
