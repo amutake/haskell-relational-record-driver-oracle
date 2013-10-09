@@ -14,9 +14,9 @@ cabal-version:       >=1.10
 library
   exposed-modules:       Database.HDBC.Schema.Oracle
   other-modules:         Database.Relational.Schema.Oracle
-                       , Database.Relational.Schema.OracleSyscat.ConsColumns
-                       , Database.Relational.Schema.OracleSyscat.Constraints
-                       , Database.Relational.Schema.OracleSyscat.TabColumns
+                       , Database.Relational.Schema.OracleDataDictionary.ConsColumns
+                       , Database.Relational.Schema.OracleDataDictionary.Constraints
+                       , Database.Relational.Schema.OracleDataDictionary.TabColumns
   -- other-extensions:
   build-depends:         base <5
                        , bytestring
