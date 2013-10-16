@@ -5,11 +5,15 @@ description:         This package contains a driver of Oracle DB for haskell-rel
 license:             BSD3
 license-file:        LICENSE
 author:              Shohei YASUTAKE
-maintainer:          shohei.yasutake@gmail.com
+maintainer:          amutake.s@gmail.com
 copyright:           Copyright (c) 2013 Shohei YASUTAKE
 category:            Database
 build-type:          Simple
 cabal-version:       >=1.10
+
+source-repository head
+  type:              git
+  location:          https://github.com/amutake/haskell-relational-record-driver-oracle
 
 library
   exposed-modules:       Database.HDBC.Schema.Oracle
